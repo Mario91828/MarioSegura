@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donación de Órganos - CENATRA</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f4f6f8; color: #333; line-height: 1.5; }
+        header { background: #13322b; color: white; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid #9d2449; flex-wrap: wrap; }
+        header h1 { font-size: 1.2rem; margin: 0; }
+        nav { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px; }
+        nav a { color: white; text-decoration: none; padding: 6px 10px; border-radius: 4px; font-size: 0.85rem; }
+        nav a:hover { background: #0b1d19; }
+        .btn-gov { background: #9d2449; font-weight: bold; }
+        .btn-gov:hover { background: #691c32 !important; }
+        main { max-width: 900px; margin: 20px auto; padding: 0 15px; }
+        section { display: flex; flex-direction: column; gap: 20px; }
+        article { background: white; border: 1px solid #ccc; border-radius: 6px; padding: 15px; display: flex; gap: 15px; align-items: center; }
+        article img { width: 260px; height: auto; border-radius: 4px; border: 1px solid #ddd; }
+        article h2 { color: #13322b; margin-top: 0; margin-bottom: 8px; font-size: 1.15rem; }
+        article p { margin: 0 0 10px 0; font-size: 0.92rem; color: #444; }
+        .btn-group { display: flex; gap: 8px; flex-wrap: wrap; }
+        .btn { display: inline-block; padding: 6px 12px; background: #13322b; color: white; text-decoration: none; border-radius: 4px; font-size: 0.82rem; }
+        .btn-sec { background: #6c757d; }
+        footer { background: #0c231e; color: white; text-align: center; padding: 15px; margin-top: 30px; font-size: 0.85rem; border-top: 4px solid #9d2449; }
+        footer p { margin: 4px 0; }
+        footer a { color: #d4c19c; text-decoration: none; }
+        @media (max-width: 650px) { header, article { flex-direction: column; text-align: center; } article img { width: 100%; } }
+    </style>
+</head>
+<body>
+
+    <!-- CABECERA (HEADER) -->
+    <header>
+        <h1>Donación de Órganos (CENATRA)</h1>
+        <nav>
+            <a href="#que-es">¿Qué es la donación?</a>
+            <a href="#quien-puede">¿Quién puede donar?</a>
+            <a href="#que-organos">Órganos y Tejidos</a>
+            <!-- ENLACE OFICIAL DEL GOBIERNO DE MÉXICO -->
+            <a href="https://www.gob.mx/cenatra" target="_blank" rel="noopener noreferrer" class="btn-gov">Regístrate como donador</a>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN DE ARTÍCULOS (SECTION) -->
+    <main>
+        <section>
+            <!-- ARTÍCULO 1 -->
+            <article id="que-es">
+                <img src="que_es_donacion.jpg" alt="Qué es la donación de órganos">
+                <div>
+                    <h2>¿Qué es la donación de órganos?</h2>
+                    <p>Es el acto altruista, voluntario y gratuito mediante el cual una persona consiente que sus órganos o tejidos sean utilizados para realizar trasplantes que salvan vidas.</p>
+                    <div class="btn-group">
+                        <a href="https://www.gob.mx/cenatra" target="_blank" class="btn">Sitio Oficial CENATRA</a>
+                        <a href="#quien-puede" class="btn btn-sec">Ver Requisitos</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ARTÍCULO 2 -->
+            <article id="quien-puede">
+                <img src="quien_puede_donar.jpg" alt="Quién puede donar órganos">
+                <div>
+                    <h2>¿Quién puede donar órganos?</h2>
+                    <p>Cualquier persona mayor de edad en pleno uso de sus facultades mentales puede ser donante en vida o después de su fallecimiento con la autorización de la familia.</p>
+                    <div class="btn-group">
+                        <a href="https://www.gob.mx/tramites/ficha/registro-de-donadores-voluntarios-de-organos-y-tejidos/CENATRA2521" target="_blank" class="btn btn-gov">Registro Oficial</a>
+                        <a href="#que-organos" class="btn btn-sec">Ver Órganos Donables</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ARTÍCULO 3 -->
+            <article id="que-organos">
+                <img src="organos_tejidos.jpg" alt="Órganos y tejidos donables">
+                <div>
+                    <h2>¿Qué órganos y tejidos puede donar?</h2>
+                    <p>Se pueden donar órganos como corazón, pulmones, hígado, riñones, páncreas e intestinos; y tejidos como córneas, piel, hueso y válvulas cardíacas.</p>
+                    <div class="btn-group">
+                        <a href="https://www.gob.mx/cenatra" target="_blank" class="btn">Trámites Oficiales</a>
+                        <a href="mailto:cenatra@salud.gob.mx" class="btn btn-sec">Correo Oficial</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA (FOOTER) -->
+    <footer>
+        <p>&copy; 2026 Gobierno de México - Centro Nacional de Trasplantes (CENATRA)</p>
+        <p>Contacto Oficial: <a href="mailto:cenatra@salud.gob.mx">cenatra@salud.gob.mx</a> | Teléfono: <a href="tel:8002017862">800 201 7862</a> / <a href="tel:5555487990">(55) 5548 7990</a></p>
+    </footer>
+
+</body>
+</html>
